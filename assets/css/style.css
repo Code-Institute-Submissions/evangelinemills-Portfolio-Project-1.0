@@ -46,7 +46,7 @@ h1, h2 {
   
   .navbar {
     width: 33%;
-    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+    box-shadow: 0 1px 4px rgb(146 161 176 / 0%);
   }
   
   .nav-container {
@@ -177,3 +177,78 @@ h1, h2 {
     background: url('../images/breastfeeding.jpg') no-repeat center center;
     background-size: cover;
 }
+
+/*About Me*/
+
+.about-me-grid {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 5px;
+    grid-row-gap: 5px; 
+
+    background-color: rgba(192, 161, 114, 0.5);
+
+    font-family: Heebo, sans-serif;
+    line-height: 30px;
+    align-content: center;
+
+    padding: 15px;    
+} 
+
+hr {
+    border-bottom: 1px solid #2C2416;
+    width: 100%;
+    margin: 5px;
+}
+
+#about-me h1 {
+    font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 275%;
+    color: #2C2416;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+}
+
+#about-me-left {
+    grid-area: 1 / 1 / 2 / 2; 
+    padding: 20px;
+}
+
+#circle-container {
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    border: 1px dotted #2C2416;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+
+#circle-image {
+   height: 100%;
+   width: 100%;
+   border-radius: 50%;
+   background-color: pink;
+   background: url('../images/midwife.jpg') no-repeat center center;
+}
+
+#about-me-right {
+    grid-area: 1 / 2 / 2 / 3;
+    padding: 20px;
+    margin-right: 60px;
+    line-height: 30px;
+    clear: right;
+    text-align: justify;
+    
+} 
+
+#about-me-right h2 {
+    font-family: Ubuntu, sans-serif;
+    color: #2C2416;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+} 
