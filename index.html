@@ -31,7 +31,7 @@
                   <li><a href="index.html">Home</a></li>
                   <li><a href="#about-me">About Me</a></li>
                   <li><a href="#services">Services</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="#contact">Contact</a></li>
                 </div>
               </div>
             </div>
@@ -87,8 +87,8 @@
                     and ask questions and meet like-minded couples about to undertake the same journey as you!
                 </p>
             </div>
-            <div class="image" id="online-prep-image"></div>
-            <div class="image" id="home-consult-image"></div>
+            <div class="image" id="online-prep-image" aria-label="Image overview of newborn breastfeeding"></div>
+            <div class="image" id="home-consult-image" aria-label="Image newborn breastfeeding from front"></div>
             <div id="home-consult">
                 <h2>
                     1:1 Home Consultation <i class="fa-solid fa-house"></i>
@@ -112,8 +112,8 @@
                     apply knowledge and skills through this onlie channel then this is for you.
                 </p>
             </div>
-            <div class="image" id="online-consult-image"></div>
-            <div class="image" id="tailored-class-image"></div>
+            <div class="image" id="online-consult-image" aria-label="Image of Jwoman stood in kitchen breastfeeding"></div>
+            <div class="image" id="tailored-class-image" aria-label="Image of naked pregnant woman"></div>
             <div id="tailored-class">
                 <h2>
                     1:1 Tailored Class <i class="fa-solid fa-user-nurse"></i>
@@ -126,7 +126,47 @@
             </div>
         </div>
     </section>
-    <section> Contact </section>
+    <!--Contact-->
+    <section id="contact">
+        <h1>Get In Touch</h1>
+        <div class="contact-grid">
+            <div id="contact-left">
+                <div>
+                    <span><i class="fa-solid fa-phone"></i></span>
+                    <span>0861234567</span>
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-at"></i></span>
+                    <span>sswbfsupport@support.com</span>
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-location-arrow"></i></span>
+                    <span>Coffee House, Coffee Road, Co.Cork</span>
+                </div>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78786.40911877563!2d-8.533089526528466!3d51.89609019576267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4844900891beb961%3A0xa00c7a99731c5d0!2sCork!5e0!3m2!1sen!2sie!4v1657797525790!5m2!1sen!2sie" width="50%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div id="contact-right">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="emial">E-Mail:</label>
+                    <input type="emial" id="emial" name="emial" required>
+                    <label for="interested-in">Intereted In:</label>
+                    <select id="interested-in" name="interested-in">
+                        <option value="online-prep">Online Breastfeeding Preparation Class</option>
+                        <option value="home-consult">1:1 Home Consultation</option>
+                        <option value="online-consult">Online Consultation</option>
+                        <option value="tailored">1:1 Tailored Class</option>
+                    </select>
+                    <label for="tenquiry">Your Enquiry:</label>
+                    <textarea id="enquiry" name="enquiry" rows="10" cols="20"></textarea>
+                    <input id="submit" type="submit" value="Send!">
+                </form>
+            </div>
+        </div>    
+    </section>
     <footer> Social Links </footer>
 <!-- font awesome -->
 <script src="https://kit.fontawesome.com/af298227b9.js" crossorigin="anonymous"></script>

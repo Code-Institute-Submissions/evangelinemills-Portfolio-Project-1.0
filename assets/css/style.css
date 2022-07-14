@@ -286,7 +286,7 @@ hr {
     grid-area: 2 / 1 / 3 / 2;
     height: 250px;
     width: 100%;
-    background: url('../images/helena-jankovičová-kováčová.jpg') no-repeat center center;
+    background: url('../images/mart-production.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -302,7 +302,7 @@ hr {
     grid-area: 3 / 2 / 4 / 3;
     height: 250px;
     width: 100%;
-    background: url('../images/mart-production.jpg') no-repeat center center;
+    background: url('../images/helena-jankovičová-kováčová.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -316,3 +316,31 @@ hr {
 #tailored-class {
     grid-area: 4 / 2 / 5 / 3; 
 }
+
+/*Contact*/
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    background-color: rgba(192, 161, 114, 0.5);
+
+    font-family: Heebo, sans-serif;
+    line-height: 30px;
+    align-content: center;
+
+    padding: 15px;
+    }
+    
+#contact-left { grid-area: 1 / 1 / 2 / 2; }
+
+#contact-right { grid-area: 1 / 2 / 2 / 3; }
+
+#google-map {
+    height: 300px;
+    width: 100%;
+}
+
