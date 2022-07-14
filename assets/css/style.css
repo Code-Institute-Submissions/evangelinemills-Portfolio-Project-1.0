@@ -17,7 +17,7 @@ body {
 /*header*/
 
 #header {
-    height: 100px;
+    height: 120px;
     width: 100%;
     background-color: rgba(192, 161, 114, 0.5);
 }
@@ -31,12 +31,15 @@ h1, h2 {
 
 
 #logo {
-    float: right;
-    font-size: 200%;
-    padding-right: 20%;
-    margin-right: 75px;
-    line-height: 70px;
- }
+   width: 200px;
+   height: 200px;
+   position: absolute;
+   top: 13%;
+   left: 20%;
+   margin-top: -100px;
+   margin-left: -50px;
+   text-align: justify;
+ } 
 
 .container {
     max-width: 300px;
@@ -145,7 +148,7 @@ h1, h2 {
   
   .navbar .menu-items li {
     margin-bottom: 1.2rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
   }
   
@@ -172,7 +175,7 @@ h1, h2 {
 /*main image*/
 
 #main-image {
-    height: 600px;
+    height: 650px;
     width: 100%;
     background: url('../images/breastfeeding.jpg') no-repeat center center;
     background-size: cover;
@@ -252,3 +255,23 @@ hr {
     text-transform: uppercase;
     letter-spacing: 5px;
 } 
+
+/*Services*/
+
+.services-grid { 
+    display: grid; 
+    grid-template-columns: repeat(2, 5fr); 
+    grid-template-rows: repeat(4, 1fr); 
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+    background-color: rgba(192, 161, 114, 0.5);
+
+    font-family: Heebo, sans-serif;
+    line-height: 30px;
+    align-content: center;
+
+    padding: 15px;
+    }
+
+    
