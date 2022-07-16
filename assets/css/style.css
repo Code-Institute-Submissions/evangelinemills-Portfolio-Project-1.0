@@ -48,27 +48,27 @@ h1, h2 {
     margin: auto;
   }
   
-  .navbar {
+.navbar {
     width: 33%;
     box-shadow: 0 1px 4px rgb(146 161 176 / 0%);
   }
   
-  .nav-container {
+.nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
   }
   
-  .navbar .menu-items {
+.navbar .menu-items {
     display: flex;
   }
   
-  .navbar .nav-container li {
+.navbar .nav-container li {
     list-style: none;
   }
   
-  .navbar .nav-container a {
+.navbar .nav-container a {
     text-decoration: none;
     color: #2C2416;
     font-weight: 700;
@@ -247,6 +247,7 @@ hr {
     grid-area: 1 / 2 / 2 / 3;
     line-height: 30px;
     text-align: justify;
+    align-content: center;
 } 
 
 #about-me-right h2 {
@@ -355,18 +356,21 @@ hr {
 #contact h2 {
   font-size: 200%;
 }
+
+.contact-form h3 {
+  font-size: 200%;
+  color: #fafafa;
+  text-align: center;
+}
     
 #contact-left { 
   grid-area: 1 / 1 / 2 / 2;
+  text-align: center;
 }
 
 #contact-right {
   grid-area: 1 / 2 / 2 / 3; 
-}
-
-#google-map {
-    height: 300px;
-    width: 100%;
+  align-content: center;
 }
 
 .contact-form {
@@ -408,9 +412,22 @@ hr {
 footer {
   height: 100px;
   width: 100%;
-  background-color: rgba(192, 161, 114, 0.5);
+  background-color: #fafafa;
 }
 
 .social-links {
-  
+  text-align: center;
 }
+
+.social-links > li {
+  display: inline;
+}
+
+.social-links i {
+  font-size: 200%;
+  color: #2C2416;
+  margin: 1%;
+  padding: 2%;
+}
+
+/*Media Queries */
