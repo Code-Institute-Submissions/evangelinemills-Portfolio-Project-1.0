@@ -13,7 +13,7 @@
 </head>
 <body>
     <!--Header-->
-    <header id="header">  
+    <header>  
         <a href="index.html">
             <h1 id="logo">Breastfeeding Support SSW</h1>
             
@@ -78,9 +78,9 @@
         <h2>What I Offer</h2>
         <div class="services-grid">
             <div id="online-prep">
-                <h2>
+                <h3>
                     Online Breastfeeding Preparation Class <i class="fa-solid fa-people-group"></i>
-                </h2>
+                </h3>
                 <hr>
                 <p>
                     This is a group class aimed to provide you and your partner with the essential knowledge
@@ -93,9 +93,9 @@
             <div class="image" id="online-prep-image" aria-label="Image overview of newborn breastfeeding"></div>
             <div class="image" id="home-consult-image" aria-label="Image newborn breastfeeding from front"></div>
             <div id="home-consult">
-                <h2>
+                <h3>
                     1:1 Home Consultation <i class="fa-solid fa-house"></i>
-                </h2>
+                </h3>
                 <hr>
                 <p>
                     I can visit your home once you have arrived home with your newborn. 
@@ -105,9 +105,9 @@
                 </p>
             </div> 
             <div id="online-consult">
-                <h2>
+                <h3>
                     Online Consultation <i class="fa-solid fa-display"></i>
-                </h2>
+                </h3>
                 <hr>
                 <p>
                     Book and online consultation at a time that suits you! This 1:1 video call allows you to 
@@ -118,9 +118,9 @@
             <div class="image" id="online-consult-image" aria-label="Image of Jwoman stood in kitchen breastfeeding"></div>
             <div class="image" id="tailored-class-image" aria-label="Image of naked pregnant woman"></div>
             <div id="tailored-class">
-                <h2>
+                <h3>
                     1:1 Tailored Class <i class="fa-solid fa-user-nurse"></i>
-                </h2>
+                </h3>
                 <hr>
                 <p>
                     This 1:1 tailored class is designed to teach you and your partner the basics in preparing
@@ -151,26 +151,35 @@
                 </div>
             </div>
             <div id="contact-right">
-                <form>
+                <form class="contact-form" method="POST" action="">
+                    <h2>Enquire Now!</h2>
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" class="text-input" name="name">
                     <label for="emial">E-Mail:</label>
-                    <input type="emial" id="emial" name="emial" required>
+                    <input type="emial" id="emial" class="text-input" name="emial" required>
                     <label for="interested-in">Intereted In:</label>
-                    <select id="interested-in" name="interested-in">
+                    <select id="interested-in" name="interested-in" class="text-input">
                         <option value="online-prep">Online Breastfeeding Preparation Class</option>
                         <option value="home-consult">1:1 Home Consultation</option>
                         <option value="online-consult">Online Consultation</option>
                         <option value="tailored">1:1 Tailored Class</option>
                     </select>
                     <label for="enquiry">Your Enquiry:</label>
-                    <textarea id="enquiry" name="enquiry" rows="10" cols="20"></textarea>
-                    <input id="submit" type="submit" value="Send!">
+                    <textarea id="enquiry" class = text-input" name="enquiry" rows="10" cols="20"></textarea>
+                    <input class="submit" type="submit" value="Send!">
                 </form>
             </div>
         </div>    
     </section>
-    <footer> Social Links </footer>
+
+    <footer>
+        <ul class="social-links">
+            <li><a href ="http://facebookcom" target="_blank" rel="noopener" aria-label="Visit my facebook group (opens in new page)"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href ="http://www.twitter.com" target="_blank" rel="noopener" aria-label="Visit my twitter page (opens in new page)"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href ="http://instagram.com" target="_blank" rel="noopener" aria-label="Visit my instagram page (opens in new page)"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href ="http://tiktok.com" target="_blank" rel="noopener" aria-label="Visit my tik tok page (opens in new page)"><i class="fa-brands fa-tiktok"></i></a></li>
+        </ul>
+    </footer>
 <!-- font awesome -->
 <script src="https://kit.fontawesome.com/af298227b9.js" crossorigin="anonymous"></script>
 </body>
