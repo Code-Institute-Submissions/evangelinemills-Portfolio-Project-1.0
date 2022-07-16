@@ -42,6 +42,8 @@ h1, h2 {
    text-align: justify;
  } 
 
+ /*Burger Menu*/
+
 .container {
     max-width: 300px;
     width: 33%;
@@ -173,7 +175,8 @@ h1, h2 {
   .nav-container input[type="checkbox"]:checked ~ .logo{
     display: none;
   }
-/*main image*/
+
+/*Main Image*/
 
 #main-image {
     height: 650px;
