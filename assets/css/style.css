@@ -378,7 +378,6 @@ hr {
   background-color: rgba(62, 38, 22, 0.6);
   max-width: 400px;
   margin-top: 40px;
-  margin-left: 100px;
   padding: 30px;
 }
 
@@ -431,3 +430,25 @@ footer {
 }
 
 /*Media Queries */
+
+
+  @media (max-width: 800px) {
+    .services-grid {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .about-me-grid {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .contact-grid {
+      display: flex;
+      flex-direction: column;
+    }
+  }
