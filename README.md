@@ -1,22 +1,22 @@
-# Breastfeeding Support SSW
+# South East Breastfeeding Support
 ## Portfolio Project 1 - HTML/CSS Essentials
 -----
 
-Breastfeeding Support SSW website is a landing page for mothers and parents of newborns looking for support with breastfeeding in the South South-West of Ireland. 
+South East Breastfeeding Support website is a landing page for mothers and parents of newborns looking for support with breastfeeding in the South-East of Ireland. 
 The support is offered by a specialist midwife either at a venue or online, as a class group or individual or privately in your own home. 
 
-Users of Breastfeeding Support SSW will be able to access all the information they need on the site. Including About the Midwife, Services offered, Where to find her 
+Users of South East Breastfeeding Support will be able to access all the information they need on the site. Including About the Midwife, Services offered, Where to find her 
 and how to Get in touch. 
 
-<img src="assets/images/readme-images/screen-options.jpg">
+<img src="assets/images/readme-images/"> <!--Insert image from am i responsive-->
 
 ## Live Project
 -----
-[View the live project here.](https://evangelinemills.github.io/Portfolio-Project-1.0/)
+[View the live project here.]() <!--insert live website link-->
 
 ## Repository
 -----
-[View the project repository here.](https://github.com/evangelinemills/Portfolio-Project-1.0)
+[View the project repository here.]() <!--insert repo link-->
 
 # Table of Contents
 
@@ -55,18 +55,18 @@ and how to Get in touch.
 
 # Wireframe
 
-- [view my wireframe here.]()
+- [View my wireframe here.]() <!--insert wireframe pdf.-->
 
 # Features 
 
 ## Navigation
 -----
-* Featured at the top of the page, the navigation bar shows the page name in the center: Breastfeeding Support SSW, which links to the main page when clicked. 
-* The other navigation links are in the burger menu button to the left of the page name, and link to the About, Services and Contact sections of the page. 
+* Featured at the top of the page, the navigation bar shows the page name in the center: South-East Breastfeeding Support, which links to the main page when clicked. 
+* The other navigation links are in the hamburger menu button to the left of the page name, and link to the About, Services and Contact sections of the page. 
 * The heading text is smart and professional and contrasts well. 
 * The navigation bar clearly states the name of the page and and is easy to use to locate other page sections 
 
-<img src="assets/images/readme-images/nav-bar.jpg">
+<img src="assets/images/readme-images/"> <!--insert nav bar image-->
 
 ## Header Image
 -----
@@ -81,16 +81,16 @@ and how to Get in touch.
 * The about me section lists the midwives qualifications whilst also making it personal, to bulid the clients trust. 
 * It remains profesional and gives the clients a sense of the person they are likely to meet. 
 
-<img src="assets/images/readme-images/about-me-section.jpg">
+<img src="assets/images/readme-images/"> <!-- insert about me section image-->
 
 ## Services Section 
 -----
-* This section essentially gives clients a menu of the services offered by the midwife, with a small summary of what each service provides. 
+* This section essentially gives clients a menu of the services offered by the midwife, with a small summary of what each service provides and the price.
 * There are four types of services offered, An online group class, an at home or online consultation and an individual tailored class. 
 * It is styled with relevant images of breastfeeding mothers and a pregnant woman, in-keeping with the professional feel of the website. 
 * This section offers the most important information on the site and is where the user will find useful information about the services offered. 
 
-<img src="assets/images/readme-images/services-section.jpg">
+<img src="assets/images/readme-images/"> <!--insert services section image -->
 
 ## Contact Section
 -----
@@ -99,7 +99,7 @@ and how to Get in touch.
 * There is an enquiry form with a drop down menu for the specific area of interest. It requests the users name, email and gives the option for free text also. 
 * This is a valuable section to the potential client as it provides all necessary information to get in touch and a direct enquiry box to the midwife. 
 
-<img src="assets/images/readme-images/contact-section.jpg">
+<img src="assets/images/readme-images/"> <!--insert contact section image -->
 
 ## Footer 
 -----
@@ -187,6 +187,7 @@ Images are from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplas
 # Acknowledgements 
 
 - Thank you to my mentor Richard Wells for the feedback and recommended tools.
+- Thank you to Claire Ferris for allowing me to use her small business as inspiration for my project.
 - Thankyou to my family for the feedback and testing of the website.
 - Thank you to my peers on Slack for help and inspiration. 
 
