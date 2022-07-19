@@ -66,7 +66,7 @@ and how to Get in touch.
 * The heading text is smart and professional and contrasts well. 
 * The navigation bar clearly states the name of the page and and is easy to use to locate other page sections 
 
-<img src="assets/images/readme-images/"> <!--insert nav bar image-->
+<img src="assets/images/readme-images/nav-bar.jpg"> 
 
 ## Header Image
 -----
@@ -81,7 +81,7 @@ and how to Get in touch.
 * The about me section lists the midwives qualifications whilst also making it personal, to bulid the clients trust. 
 * It remains profesional and gives the clients a sense of the person they are likely to meet. 
 
-<img src="assets/images/readme-images/"> <!-- insert about me section image-->
+<img src="assets/images/readme-images/about-me.jpg"> 
 
 ## Services Section 
 -----
@@ -90,7 +90,7 @@ and how to Get in touch.
 * It is styled with relevant images of breastfeeding mothers and a pregnant woman, in-keeping with the professional feel of the website. 
 * This section offers the most important information on the site and is where the user will find useful information about the services offered. 
 
-<img src="assets/images/readme-images/"> <!--insert services section image -->
+<img src="assets/images/readme-images/services.jpg"> 
 
 ## Contact Section
 -----
@@ -99,7 +99,7 @@ and how to Get in touch.
 * There is an enquiry form with a drop down menu for the specific area of interest. It requests the users name, email and gives the option for free text also. 
 * This is a valuable section to the potential client as it provides all necessary information to get in touch and a direct enquiry box to the midwife. 
 
-<img src="assets/images/readme-images/"> <!--insert contact section image -->
+<img src="assets/images/readme-images/contact.jpg"> 
 
 ## Footer 
 -----
