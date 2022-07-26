@@ -41,7 +41,9 @@ and how to Get in touch.
 
 - I used a simple colourscheme in my project. It presents a calming and professional aesthetic.
 
-- The head and body colous complement eachother and the background colours enable these to stand out. 
+- The head and body colours complement eachother and the background colours enable these to stand out. 
+
+- The body uses #453823 and the head uses #2C2416. The backgrounds are rgba(192, 161, 114, 0.5) and #fafafa.
 
 ## Typography
 -----
