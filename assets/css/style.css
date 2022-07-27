@@ -4,6 +4,7 @@
    margin: 0;
    padding: 0;
    border: none;
+   text-decoration: none;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 header {
     height: 100px;
     width: 100%;
-    background-color: rgba(192, 161, 114, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     position: fixed;
     top: 0;
     left: 0;
@@ -51,6 +52,12 @@ h1, h2 {
 
 
  /*Burger Menu*/
+
+ .menu {
+  overflow: hidden;
+  height: 0px;
+  width: 0px;
+ }
 
 .container {
     max-width: 300px;
