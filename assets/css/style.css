@@ -17,9 +17,12 @@ body {
 /*header*/
 
 header {
-    height: 120px;
+    height: 100px;
     width: 100%;
-    background-color: rgba(192, 161, 114, 0.5);
+    background-color: rgba(192, 161, 114, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 h1, h2 {
@@ -32,14 +35,13 @@ h1, h2 {
 
 
 #logo {
-   width: 400px;
-   height: 200px;
-   position: absolute;
-   top: 13%;
-   left: 20%;
-   margin-top: -100px;
-   margin-left: -50px;
- } 
+  padding-top: 1rem;
+  text-decoration: none;
+  width: 100%;
+  height: auto;
+  font-size: 2rem;
+}
+
 
  /*Burger Menu*/
 
@@ -170,10 +172,7 @@ h1, h2 {
   .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     transform: rotate(-45deg);
   }
-  
-  .nav-container input[type="checkbox"]:checked ~ .logo{
-    display: none;
-  }
+
 
 /*Main Image*/
 
