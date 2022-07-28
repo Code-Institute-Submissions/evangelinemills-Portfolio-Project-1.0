@@ -3,12 +3,14 @@
 -----
 
 South East Breastfeeding Support website is a landing page for mothers and parents of newborns looking for support with breastfeeding in the South-East of Ireland. 
+
+The website is aimed to target mothers of newborns of any background, looking for advice, education or help with breastfeeding. 
+
 The support is offered by a specialist midwife either at a venue or online, as a class group or individual or privately in your own home. 
 
-Users of South East Breastfeeding Support will be able to access all the information they need on the site. Including About the Midwife, Services offered, Where to find her 
-and how to Get in touch. 
+Users of South East Breastfeeding Support will be able to access all the information they need on the site. Including About the Midwife, Services offered, Where to find her and how to Get in touch. 
 
-<img src="assets/images/readme-images/"> <!--Insert image from am i responsive-->
+<img src="assets/images/readme-images/am-i-responsive.jpg"> <!--Insert image from am i responsive-->
 
 ## Live Project
 -----
@@ -43,22 +45,21 @@ and how to Get in touch.
 
 - The head and body colours complement eachother and the background colours enable these to stand out. 
 
-- The body uses #453823 and the head uses #2C2416. The backgrounds are rgba(192, 161, 114, 0.5) and #fafafa.
-
 ## Typography
 -----
-- I used Heebo for my body and Ubuntu for my headings. Ubuntu uses a sans-serif typeface and Heebo is easy to read. 
+- I used [Heebo](https://fonts.google.com/specimen/Heebo?query=heeb) for my body and [Ubuntu](https://fonts.google.com/specimen/Ubuntu?query=ubuntu) for my headings. Ubuntu uses a sans-serif typeface and Heebo is easy to read. 
 
 - A fallback font of Sans-Serif has been selected for headings and body respectively, should a browser be unable to load my chosen fonts. 
 
 ## Icons
 -----
-- I used icons from font awesome alongside my headings to compliment the text. 
+- I used icons from [font awesome](https://fontawesome.com/) alongside my headings to compliment the text. 
 
 # Wireframe
 
-- [View my wireframe here.]() <!--insert wireframe pdf.-->
-
+- <img src="assets/images/readme-images/wifreframe-head.jpg">
+- <img src="assets/images/readme-images/wireframe-services.jpg">
+- <img src="assets/images/readme-images/wireframe-contact.jpg">
 # Features 
 
 ## Navigation
@@ -67,6 +68,7 @@ and how to Get in touch.
 * The other navigation links are in the hamburger menu button to the left of the page name, and link to the About, Services and Contact sections of the page. 
 * The heading text is smart and professional and contrasts well. 
 * The navigation bar clearly states the name of the page and and is easy to use to locate other page sections 
+* The navigation bar sticks to the top of the page at all times to allow the user continuous navigation on the page. 
 
 <img src="assets/images/readme-images/nav-bar.jpg"> 
 
@@ -121,22 +123,22 @@ and how to Get in touch.
 ## Frameworks and Programs
 -----
 - [Google Fonts](https://fonts.google.com/)
- -I imported two fonts. Ubuntu and Heebo. 
+   - I imported two fonts. Ubuntu and Heebo. 
 
 - [Font Awesome](https://fontawesome.com/)
- - I used icons from font awesome to compliment my headings. 
+   - I used icons from font awesome to compliment my headings. 
 
 - [Github](https://github.com/) 
- - Github was used to create and store my project.
+   - Github was used to create and store my project.
 
 - [Gitpod](https://gitpod.io)
- - Gitpod is where i wrote my code and stored it during creation. 
+   - Gitpod is where I wrote my code and stored it during creation. 
 
 - [Balsamiq](https://balsamiq.com)
- - I used Balsamiq to create my wireframe at the initial inception stage of my project.
+   - I used Balsamiq to create my wireframe at the initial inception stage of my project.
 
 - [Google Chrome Devtools](https://developer.chrome.com/docs/devtools/)
-- Devtools were used whilst creating the project to ensure functionality and responsiveness.
+   - Devtools were used whilst creating the project to ensure functionality and responsiveness.
 
 ## API's
 -----
@@ -146,10 +148,26 @@ and how to Get in touch.
 
 # Testing 
 
-* I confirmed that the page works on different browsers: Safari and Chrome.
-* I ensured that the wedsite is responsive and that it functions appropriately on various screen sizes, using devtools. 
-* I made sure that all elemets are readable and easy to understand. 
+* I confirmed that the page works in different browsers: Safari and Chrome, by opeing the page within each of these. 
+* I ensured that all links within the page function appropriately and that all external links open in a new browser.
+* I ensured that the wedsite is responsive and that it works on various screen sizes, using devtools and subsequently creating media queries. 
+* I made sure that all elements are readable and easy to understand by choosing contrasting colours.
 * I have confirmend that the form works, required fields that must be populated and email section only accpets an email address, and the submit button works. 
+
+# Bugs
+
+* - Problem: Couldn't get my Logo to centre at the top of the page.
+  - Cause: There was a style rule further up in the CSS that was over-riding my logo specific rule.
+  - Resolution: Once identified, I changed the initial style rule which allowed my logo specific rule to take effect. 
+
+* - Problem: Couldn't get my images in the services section to fill the space required.
+  - Cause: Using and <img> tag would not behave appropriatley.
+  - Resolution: I used background-image in CSS instead so as I could set the size to cover.
+
+* - Problem: My services section would not stack when i applied my media query rule. 
+  - Cause: I was missing a closing div tag at the end of one of my sections. 
+  - Resolution: Once identified I added in the div and it functioned properly. 
+
 
 ### Validator Testing
 -----
@@ -160,7 +178,7 @@ and how to Get in touch.
  No errors were found on the official W3C CSS validator. 
 
 - Accessibility 
- I have confirmed that my fonts and colours are easy to ready and that my site is accessible. 
+   - I have confirmed that my fonts and colours are easy to read and that my site is accessible to all users. 
 
  <img src="assets/images/readme-images/accessibility.jpg">
 
