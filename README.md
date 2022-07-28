@@ -10,8 +10,7 @@ The support is offered by a specialist midwife either at a venue or online, as a
 
 Users of South East Breastfeeding Support will be able to access all the information they need on the site. Including About the Midwife, Services offered, Where to find her and how to Get in touch. 
 
-<img src="assets/images/readme-images/am-i-responsive.jpg"> <!--Insert image from am i responsive-->
-
+<img src="assets/images/readme-images/am-i-responsive.jpg">
 ## Live Project
 -----
 [View the live project here.]() <!--insert live website link-->
@@ -167,6 +166,10 @@ Users of South East Breastfeeding Support will be able to access all the informa
 * - Problem: My services section would not stack when i applied my media query rule. 
   - Cause: I was missing a closing div tag at the end of one of my sections. 
   - Resolution: Once identified I added in the div and it functioned properly. 
+
+* - Problem: Lighthouse accessibility is 90% because of a missing label for the checkbox in the hamburger menu. 
+  - Cause: The input type checkbox does not have a label. 
+  - Resolution: This bug is not resolved as I cannot find a way for this input to accept a label tag.   
 
 
 ### Validator Testing
