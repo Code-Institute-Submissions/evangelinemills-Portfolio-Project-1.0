@@ -445,28 +445,28 @@ footer {
 /*Media Queries */
 
 
-  @media (max-width: 800px) {
+  @media (max-width: 600px) {
     .services-grid {
       display: flex;
       flex-direction: column;
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 600px) {
     .about-me-grid {
       display: flex;
       flex-direction: column;
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 600px) {
     .contact-grid {
       display: flex;
       flex-direction: column;
     }
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 600px) {
     #circle-container {
       height: 150px;
       width: 150px;
