@@ -151,7 +151,6 @@ h1, h2 {
   transform: translate(-150%);
   display: flex;
   flex-direction: column;
-  margin-left: -40px;
   transition: transform 0.5s ease-in-out;
   text-align: center;
 }
@@ -461,6 +460,11 @@ footer {
   }
 
 @media (max-width: 600px) {
+
+  .hamburger-list-items {
+    font-size: smaller;
+  }
+
   #circle-container {
     height: 150px;
     width: 150px;
