@@ -171,6 +171,10 @@ Users of South East Breastfeeding Support will be able to access all the informa
   - Cause: The input type checkbox does not have a label. 
   - Resolution: This bug is not resolved as I cannot find a way for this input to accept a label tag without interrupting its functionality.   
 
+* - Problem: My nav bar list items were dissappearing off the side of the screen when viewed on mobile devices.
+  - Cause: I had a margin-left set to -40px which was pushing the text off the screen.
+  - Resolution: I deleted the line of code as it had very little effect on the larger screen view, and it now works on all screen sizes.   
+
 
 ### Validator Testing
 -----
@@ -197,7 +201,7 @@ Users of South East Breastfeeding Support will be able to access all the informa
 
 ## Content
 -----
-The code to make the hamburger menu was taken from [https://alvarotrigo.com/blog/hamburger-menu-css/#:~:text=What%20Is%20A%20Hamburger%20Menu,top%20of%20the%20main%20content]
+The code to make the hamburger menu was adapted from [https://alvarotrigo.com/blog/hamburger-menu-css/#:~:text=What%20Is%20A%20Hamburger%20Menu,top%20of%20the%20main%20content]
 
 The code to assist me in making the grid layout was taken from [https://cssgrid-generator.netlify.app/]
 
