@@ -169,7 +169,7 @@ Users of South East Breastfeeding Support will be able to access all the informa
 
 * - Problem: Lighthouse accessibility is 90% because of a missing label for the checkbox in the hamburger menu. 
   - Cause: The input type checkbox does not have a label. 
-  - Resolution: This bug is not resolved as I cannot find a way for this input to accept a label tag.   
+  - Resolution: This bug is not resolved as I cannot find a way for this input to accept a label tag without interrupting its functionality.   
 
 
 ### Validator Testing
