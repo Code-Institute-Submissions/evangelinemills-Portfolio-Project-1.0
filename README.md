@@ -57,9 +57,9 @@ Users of South-East Breastfeeding Support will be able to access all the informa
 
 # Wireframe
 
-- <img src="assets/images/readme-images/wifreframe-head.jpg">
-- <img src="assets/images/readme-images/wireframe-services.jpg">
-- <img src="assets/images/readme-images/wireframe-contact.jpg">
+ <img src="assets/images/readme-images/wifreframe-head.jpg">
+ <img src="assets/images/readme-images/wireframe-services.jpg">
+ <img src="assets/images/readme-images/wireframe-contact.jpg">
 
 # Features 
 
