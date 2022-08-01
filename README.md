@@ -4,13 +4,14 @@
 
 South East Breastfeeding Support website is a landing page for mothers and parents of newborns looking for support with breastfeeding in the South-East of Ireland. 
 
-The website is aimed to target mothers of newborns of any background, looking for advice, education or help with breastfeeding. 
+The website is aimed to target parents of newborns of any background, looking for advice, education or help with breastfeeding. 
 
 The support is offered by a specialist midwife either at a venue or online, as a class group or individual or privately in your own home. 
 
-Users of South East Breastfeeding Support will be able to access all the information they need on the site. Including About the Midwife, Services offered, Where to find her and how to Get in touch. 
+Users of South-East Breastfeeding Support will be able to access all the information they need on the site. Including About the Midwife, Services offered, Where to find her and how to Get in touch. 
 
 <img src="assets/images/readme-images/am-i-responsive.jpg">
+
 ## Live Project
 -----
 [View the live project here.]() <!--insert live website link-->
@@ -59,6 +60,7 @@ Users of South East Breastfeeding Support will be able to access all the informa
 - <img src="assets/images/readme-images/wifreframe-head.jpg">
 - <img src="assets/images/readme-images/wireframe-services.jpg">
 - <img src="assets/images/readme-images/wireframe-contact.jpg">
+
 # Features 
 
 ## Navigation
@@ -75,14 +77,14 @@ Users of South East Breastfeeding Support will be able to access all the informa
 -----
 * Featured below the navigation bar, the main image offers a clear image of a newbrn breastfeeding. 
 * it is calm and relaxed and inkeeping with the colour scheme of the site. 
-* The image cleary relates back to the purpose of the site. 
+* The image clearly relates back to the purpose of the site. 
 
 <img src="assets/images/readme-images/head-image.jpg">
 
 ## About Me Section
 -----
 * The about me section lists the midwives qualifications whilst also making it personal, to bulid the clients trust. 
-* It remains profesional and gives the clients a sense of the person they are likely to meet. 
+* It remains professional and gives the clients a sense of the person they will meet. 
 
 <img src="assets/images/readme-images/about-me.jpg"> 
 
@@ -149,9 +151,9 @@ Users of South East Breastfeeding Support will be able to access all the informa
 
 * I confirmed that the page works in different browsers: Safari and Chrome, by opeing the page within each of these. 
 * I ensured that all links within the page function appropriately and that all external links open in a new browser.
-* I ensured that the wedsite is responsive and that it works on various screen sizes, using devtools and subsequently creating media queries. 
+* I ensured that the wedsite is responsive and that it works on various screen sizes, using devtools and my own different devices. 
 * I made sure that all elements are readable and easy to understand by choosing contrasting colours.
-* I have confirmend that the form works, required fields that must be populated and email section only accpets an email address, and the submit button works. 
+* I have confirmend that the form works, required fields that must be populated and email section only accpets an email address, and the submit button works, by filling out the form myself.
 
 # Bugs
 
@@ -160,16 +162,16 @@ Users of South East Breastfeeding Support will be able to access all the informa
   - Resolution: Once identified, I changed the initial style rule which allowed my logo specific rule to take effect. 
 
 * - Problem: Couldn't get my images in the services section to fill the space required.
-  - Cause: Using and <img> tag would not behave appropriatley.
+  - Cause: Using an image tag would not behave appropriatley for what I was trying to achieve.
   - Resolution: I used background-image in CSS instead so as I could set the size to cover.
 
-* - Problem: My services section would not stack when i applied my media query rule. 
+* - Problem: My services section would not stack when I applied my media query rule. 
   - Cause: I was missing a closing div tag at the end of one of my sections. 
   - Resolution: Once identified I added in the div and it functioned properly. 
 
 * - Problem: Lighthouse accessibility is 90% because of a missing label for the checkbox in the hamburger menu. 
   - Cause: The input type checkbox does not have a label. 
-  - Resolution: This bug is not resolved as I cannot find a way for this input to accept a label tag without interrupting its functionality.   
+  - Resolution: This bug is NOT resolved as I cannot find a way for this input to accept a label tag without interrupting its functionality.   
 
 * - Problem: My nav bar list items were dissappearing off the side of the screen when viewed on mobile devices.
   - Cause: I had a margin-left set to -40px which was pushing the text off the screen.
@@ -205,7 +207,7 @@ The code to make the hamburger menu was adapted from [https://alvarotrigo.com/bl
 
 The code to assist me in making the grid layout was taken from [https://cssgrid-generator.netlify.app/]
 
-Some code for my enquiry form was taken from Love Running. 
+Some code for my enquiry form and circle image was taken from Love Running. 
 
 ## Media
 -----
