@@ -2,7 +2,7 @@
 ## Portfolio Project 1 - HTML/CSS Essentials
 -----
 
-South East Breastfeeding Support website is a landing page for mothers and parents of newborns looking for support with breastfeeding in the South-East of Ireland. 
+South-East Breastfeeding Support website is a landing page for mothers and parents of newborns looking for support with breastfeeding in the South-East of Ireland. 
 
 The website is aimed to target parents of newborns of any background, looking for advice, education or help with breastfeeding. 
 
@@ -68,14 +68,14 @@ Users of South-East Breastfeeding Support will be able to access all the informa
 * Featured at the top of the page, the navigation bar shows the page name in the center: South-East Breastfeeding Support, which links to the main page when clicked. 
 * The other navigation links are in the hamburger menu button to the left of the page name, and link to the About, Services and Contact sections of the page. 
 * The heading text is smart and professional and contrasts well. 
-* The navigation bar clearly states the name of the page and and is easy to use to locate other page sections 
+* The navigation bar clearly states the name of the page and and is easy to use to locate other page sections.
 * The navigation bar sticks to the top of the page at all times to allow the user continuous navigation on the page. 
 
 <img src="assets/images/readme-images/nav-bar.jpg"> 
 
 ## Header Image
 -----
-* Featured below the navigation bar, the main image offers a clear image of a newbrn breastfeeding. 
+* Featured below the navigation bar, the main image offers a clear image of a newborn breastfeeding. 
 * it is calm and relaxed and inkeeping with the colour scheme of the site. 
 * The image clearly relates back to the purpose of the site. 
 
@@ -110,6 +110,7 @@ Users of South-East Breastfeeding Support will be able to access all the informa
 -----
 * The footer gives social media account links at the bottom of the page. 
 * It is a valuable tool to the user as it further backs up the information on the page should the client wish to research further. 
+* Each link opens in a new page so as the user continuously stays on the website.
 
 <img src="assets/images/readme-images/footer.jpg">
 
@@ -150,9 +151,11 @@ Users of South-East Breastfeeding Support will be able to access all the informa
 # Testing 
 
 * I confirmed that the page works in different browsers: Safari and Chrome, by opeing the page within each of these. 
+* I opened the website on different devices such as laptops and phones to ensure its functionality.
+* When landing on the website it is immediately apparant what the purpose of the website is. This is true for both computer and mobile devices.
 * I ensured that all links within the page function appropriately and that all external links open in a new browser.
-* I ensured that the wedsite is responsive and that it works on various screen sizes, using devtools and my own different devices. 
-* I made sure that all elements are readable and easy to understand by choosing contrasting colours.
+* I ensured that the website is responsive and that it works on various screen sizes, using devtools and my own different devices. 
+* I made sure that all elements are readable and easy to understand by choosing contrasting colours and easy to read fonts.
 * I have confirmend that the form works, required fields that must be populated and email section only accpets an email address, and the submit button works, by filling out the form myself.
 
 # Bugs
@@ -203,9 +206,9 @@ Users of South-East Breastfeeding Support will be able to access all the informa
 
 ## Content
 -----
-The code to make the hamburger menu was adapted from [https://alvarotrigo.com/blog/hamburger-menu-css/#:~:text=What%20Is%20A%20Hamburger%20Menu,top%20of%20the%20main%20content]
+The code to make the hamburger menu was adapted from [Hamburger Menu Examples](https://alvarotrigo.com/blog/hamburger-menu-css/#:~:text=What%20Is%20A%20Hamburger%20Menu,top%20of%20the%20main%20content)
 
-The code to assist me in making the grid layout was taken from [https://cssgrid-generator.netlify.app/]
+The code to assist me in making the grid layout was taken from [CSS Grid Generator](https://cssgrid-generator.netlify.app/)
 
 Some code for my enquiry form and circle image was taken from Love Running. 
 
